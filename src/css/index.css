@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'yekanBakh';
+  src: local(yekanBakh),
+    url(/fonts/Yekan-Bakh/Yekan-Bakh-FaNum-04-Regular.eot),
+    url(/fonts/Yekan-Bakh/Yekan-Bakh-FaNum-04-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'yekanBakh';
+  src: local(yekanBakh),
+    url(/fonts/Yekan-Bakh/Yekan-Bakh-FaNum-05-Medium.eot),
+    url(/fonts/Yekan-Bakh/Yekan-Bakh-FaNum-05-Medium.ttf),
+    url(/fonts/Yekan-Bakh/Yekan-Bakh-FaNum-05-Medium.woff);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'yekanBakh';
+  src: local(yekanBakh),
+    url(/fonts/Yekan-Bakh/Yekan-Bakh-FaNum-07-Heavy.eot),
+    url(/fonts/Yekan-Bakh/Yekan-Bakh-FaNum-07-Heavy.ttf),
+    url(/fonts/Yekan-Bakh/Yekan-Bakh-FaNum-07-Heavy.woff);
+  font-weight: 700;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @layer base {
+  body {
+    @apply font-yekanBakh;
+  }
+} */
